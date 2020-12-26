@@ -2,6 +2,12 @@
     background-color:#ffffff !important;
 
 }
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
  
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 .nav-link{
@@ -21,13 +27,17 @@
 .dropdown:hover > .dropdown-menu {
     display: block;
 }
+
 .dropdown-menu a{
     color: white ;
-    background-color: #00BCD4;
-    padding: 8px !important;
+    background-color:#0D47A1;
+    padding: 10px !important;
     align-items: center;
     text-align: center;
     text-decoration:  none !important;
+    font-family:' Roboto' sans-serif !important;
+    font-size: 18px;
+    /* margin: 0px; */
     
 }
 .dropdown-menu a:hover {
@@ -35,6 +45,10 @@
     text-decoration: underline  blue;
     background-color:none !important;
 }
+.w-100 {
+    width: 100% !important;
+    height: 75vh;
+  }
 hr.nw{
     border-top: 1px solid white;
     text-align: center;
@@ -54,6 +68,10 @@ hr.nw{
 /* @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap'); */
+.la{
+    font-family:' Roboto' sans-serif !important;
+    font-size: 21px;
+}
 
 .fr{
     font-family: 'Roboto' sans-serif !important;
