@@ -171,4 +171,54 @@ hr.nw{
             border:  rgb(22, 201, 246) 1px solid;
             background-color: rgb(22, 201, 246);
             color:#ffffff;
-        }       
+ }       
+                  
+ @media only screen and (max-width: 768px){
+.w-75{
+        width: 100% !important;
+        margin-left: 0px;
+        margin-right:0px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    .part1{
+        margin-left: 8px;
+        margin-right:8px ;
+        padding-left: 0px;
+        padding-right: 0px;
+         
+    }
+}
+/* @media only screen and (max-width: 576px){
+    .w-75{
+        width: 100% !important;
+        margin-left: 0px;
+        margin-right:0px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .part1{
+        margin-left: 10px;
+        margin-right:10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media only screen and (max-width: 360px){
+    .w-75{
+        width: 100% !important;
+        margin-left: 0px;
+        margin-right:0px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+    }
+    .part1{
+        margin-left: 10px;
+        margin-right:10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+} */
+ 
