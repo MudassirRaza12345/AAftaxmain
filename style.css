@@ -91,6 +91,7 @@ hr.nw{
 .bx{
     font-family: 'Playfair Display', serif !important;
     font-size: 23px;
+     
 }
 /* .fourth{
     background-image: url(images/8.jpg);
@@ -210,6 +211,7 @@ hr.nw{
         box-sizing: border-box;
           
     }
+    /* slider */
     .sec2{
         padding-left: 0px;
         padding-right: 0px;
@@ -279,3 +281,14 @@ form div .custom-control{
     }
 } 
   */
+  /* contact  */
+  .line-bottom {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    padding-top:15px ;
+    /* background-color: gold;border: 1px solid gold; */
+}
+.border-bottom {
+    border-bottom: 1px solid black !important;
+}
