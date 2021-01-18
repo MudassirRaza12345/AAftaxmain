@@ -49,6 +49,10 @@
     width: 100% !important;
     height: 70vh;
   }
+  .w-1000{
+    width: 100% !important;
+    height: 40vh;
+  }
 hr.nw{
     border-top: 1px solid white;
     text-align: center;
