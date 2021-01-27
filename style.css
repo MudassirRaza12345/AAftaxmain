@@ -63,6 +63,10 @@ body{
     width: 100% !important;
     height: 40vh;
   }
+  .w-10000{
+    width: 80% !important;
+    height: 40vh;
+  }
 hr.nw{
     border-top: 1px solid white;
     text-align: center;
@@ -71,8 +75,16 @@ hr.nw{
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 .S2{
     font-family: 'Lato', sans-serif;
-    font-size: 40px
+    font-size: 40px;
+    word-spacing: 5px;
     
+
+}
+.S22{
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    word-spacing: 3px;
+    line-height: 30px;
 
 }
 
@@ -248,12 +260,126 @@ hr.nw{
         width: 100%;
         height: 35vh;
     } */
-    .S2{
-        font-size: 30px !important; 
-        
+     .S2{
+        font-size: 25px !important; 
+        text-align: center !important;
+         
+       
     }
+     
+    .S22{
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        word-spacing: 3px;
+        line-height: 30px;
+    
+    }
+    .thw{
+        font-size: 25px !important; 
+        text-align: center !important;
+        line-height:30px ;
+         
+       
+    }
+     
+}
+@media only screen and (max-width: 488px) {
+    .S2{
+        font-size: 22px !important; 
+        text-align: center !important;
+         
+       
+    }
+    .thw{
+        font-size: 22px !important; 
+        text-align: center !important;
+        line-height:30px ;
+         
+       
+    }
+
+
+}
+@media only screen and (max-width: 439px) {
+
+    .S2{
+        font-size: 21px !important; 
+        text-align: center !important;
+         
+       
+    }
+    .thw{
+        font-size: 21px !important; 
+        text-align: center !important;
+        line-height:30px ;
+         
+       
+    }
+
+
+
+
+
 }
 
+@media only screen and (max-width: 423px){
+    .S2,.thw{
+        font-size: 20px !important; 
+        text-align: left !important;
+        word-spacing: none;
+        line-height: 30px;
+        margin: 0px;
+        padding: 0px;
+       
+    }
+
+}
+
+
+
+@media only screen and (max-width: 407px){
+    .S2 ,.thw{
+        font-size: 20px !important; 
+        text-align: left !important;
+         margin: 0px;
+        padding: 0px;
+        word-spacing: none;
+        line-height: 30px;
+        
+         
+        
+    }
+    
+
+
+
+
+
+    
+    .S22{
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+        word-spacing: 3px;
+        line-height: 30px;
+    
+    }
+
+    @media only screen and (max-width: 576px){
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+}
 /* form div .input-group{
     padding-left: 8px;
     padding-right: 8px;
