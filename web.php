@@ -19,10 +19,6 @@ $msg=$_POST['Message'];
 			</script>";
 		
 	}
-
-
-
-
 		
 		 
 	
