@@ -1,6 +1,6 @@
 body{
-    margin:0;
-    padding:0;
+    margin:0 ;
+    padding:0 ;
 }
 *{
     margin:0;
@@ -142,14 +142,17 @@ hr.nw{
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 .thw{
     /* font-family: 'Roboto', sans-serif !important; */
-    font-family: 'Lora', serif;
-    text-transform: uppercase;
+     
+    font-family: 'Times New Roman', Times, serif;
+    /* text-transform:capitalize; */
     /* word-spacing: 3px; */
-    font-size: 25px
+    font-size: 30px;
     
 }
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
@@ -181,18 +184,24 @@ hr.nw{
 
 
 /* second page */
+.form-group:hover #btn{
+    background-color:#00ffff  !important;
+    color: #ffffff !important;
+    }
+
 
 .form-group:hover .btn{
     background-color:#00ffff  !important;
     color: #ffffff !important;
     }
+ 
     .form-group .btn:focus{
         background-color: #6495ed !important;
         color: #ffffff !important;
     }
     .input-group .form-control{
-        border: #b9b6b6 1px solid ;
-        border-radius: 20px 0px 20px 20px;
+        border: #b9b6b6 1px solid !important ;
+        border-radius: 20px 0px 20px 20px ;
     }    
     .input-group-text{
             border-radius: 20px 20px 20px 0px;
@@ -209,7 +218,7 @@ hr.nw{
 
 } 
  @media only screen and (max-width: 768px){
-.w-75{
+.w-60{
         width: 100% !important;
         margin-left: 0px;
         margin-right:0px;
