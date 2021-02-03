@@ -8,7 +8,7 @@ $msg=$_REQUEST['Message'];
 		echo "Please fill out these fields";
 	}
 	else {
-		$to=' tax@aaftax.ca';  
+		$to='tax@aaftax.ca';  
 		$subject='Form Submission';
 		$message="User Name : $name.\n".
 		"User Email : .$email.\n".
@@ -24,7 +24,7 @@ $msg=$_REQUEST['Message'];
 			
 			</script>";
 			
-				echo "<script type='text/javascript'>window.open('./pages/about.html')</script>";
+				echo "<script type='text/javascript'>window.open('../services/Corporation.html')</script>";
 			
 		 
 				
